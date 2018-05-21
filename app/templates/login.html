@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Электронная библиотека</title>
+    <link href="../static/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../static/css/style.css" rel="stylesheet">
+</head>
+<body style="background-color: #b8ff6d">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4">
+            </div>
+            <div class="col-sm-4">
+                <div class="white-box">
+                    <form action="login" method="post">
+                            <div><input type="text" class="login-input" id="login" name="login" placeholder="Введите логин" title="Введите логин"></div>
+                            <div><input type="text" class="login-input" id="password" name="password" placeholder="Введите пароль" title="Введите пароль"></div>
+                            <div><button id="enter-btn" type="submit">Войти</button></div>
+                            <div>{{error_message}}</div>
+                        </form>
+                </div>
+            </div>
+            <div class="col-sm-4">
+            </div>
+        </div>
+    </div>
+</body>
+</html>

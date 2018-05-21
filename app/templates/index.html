@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{title}}</title>
+    <link href="../static/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="../static/css/multiple-select.css" rel="stylesheet"/>
+
+    <link href="../static/css/style.css" rel="stylesheet">
+</head>
+<body>
+<div class="container-fluid">
+    <div class="row bg-title">
+        <div class="col-lg-4 col-md-4 col-sm-4">
+            <h3 class="title">Электронная библиотека</h3>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-4">
+            <a href="books"><h3 class="link">Книги</h3></a>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-4">
+            <a href="authors"><h3 class="link">Авторы</h3></a>
+        </div>
+    </div>
+    <div class="col-lg-12 col-md-12 col-sm-12">
+        <input type="text" id="myInput" placeholder="Search for names.." title="Type in a name">
+        <table class="table" id="libruary_table">
+        </table>
+    </div>
+    <!--<div class="col-lg-6 col-md-6 col-sm-6">-->
+        <!--<div class="row">-->
+            <!--<div class="book_manage">-->
+                <!--<b><h4 class="book-title"><span class="book-title-text">Добавить книгу</span></h4></b>-->
+                <!--<div class="col-lg-6 col-md-6 col-sm-6">-->
+                    <!--<input class="book-name" type="text" placeholder="Название книги..." title="Введите название книги">-->
+                <!--</div>-->
+                <!--<div class="col-lg-6 col-md-6 col-sm-6">-->
+                    <!--<select class="sel" id="authors-list" multiple="multiple">-->
+                            <!--</select>-->
+                <!--</div>-->
+                <!--<button class="add-button" id="add-book-btn">Добавить</button>-->
+            <!--</div>-->
+        <!--</div>-->
+
+        <!--<div class="row">-->
+            <!--<div class="book_manage">-->
+                <!--<b><h4 class="book-title"><span class="book-title-text">Добавить автора</span></h4></b>-->
+                <!--<div class="col-lg-6 col-md-6 col-sm-6">-->
+                    <!--<input class="book-name" type="text" placeholder="ФИО автора..." title="Введите ФИО автора">-->
+                <!--</div>-->
+                <!--<div class="col-lg-6 col-md-6 col-sm-6">-->
+                    <!--<select class="sel" id="books-list" multiple="multiple">-->
+                            <!--</select>-->
+                <!--</div>-->
+                <!--<button class="add-button" id="add-author-btn">Добавить</button>-->
+            <!--</div>-->
+        <!--</div>-->
+    <!--</div>-->
+</div>
+
+
+<script src="../static/js/jquery/dist/jquery.min.js"></script>
+<script src="../static/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="../static/js/multiple-select.js"></script>
+<script src="../static/js/libruary.js"></script>
+
+</body>
+</html>
